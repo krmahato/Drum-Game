@@ -18,37 +18,37 @@ document.addEventListener("keydown", function(event) {
 function btnSwitch(btnValue) {
     switch (btnValue) {
         case "a":
-            var a_btn = new Audio("sounds/tom-1.mp3");
+            var a_btn = new Audio("tom-1.mp3");
             a_btn.play();
             break;
 
         case "s":
-            var s_btn = new Audio("sounds/tom-2.mp3");
+            var s_btn = new Audio("tom-2.mp3");
             s_btn.play();
             break;
 
         case "d":
-            var d_btn = new Audio("sounds/tom-3.mp3");
+            var d_btn = new Audio("tom-3.mp3");
             d_btn.play();
             break;
 
         case "f":
-            var f_btn = new Audio("sounds/tom-4.mp3");
+            var f_btn = new Audio("tom-4.mp3");
             f_btn.play();
             break;
 
         case "j":
-            var j_btn = new Audio("sounds/snare.mp3");
+            var j_btn = new Audio("snare.mp3");
             j_btn.play();
             break;
 
         case "k":
-            var k_btn = new Audio("sounds/crash.mp3");
+            var k_btn = new Audio("crash.mp3");
             k_btn.play();
             break;
 
         case "l":
-            var l_btn = new Audio("sounds/kick-bass.mp3");
+            var l_btn = new Audio("kick-bass.mp3");
             l_btn.play();
             break;
 
